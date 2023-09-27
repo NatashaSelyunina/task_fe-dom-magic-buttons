@@ -9,7 +9,9 @@ btn.addEventListener('click', () => {
   // при нажатии на первую кнопку
   // работайте с clonedBtn
   // ваш код начинается здесь
-  
+  document.body.appendChild(clonedBtn)
+  clonedBtn.innerText = 'Я изменю тебя'
+  clonedBtn.style.backgroundColor = '#a78b71'
 })
 
 // здесь можете создать EventListener для второй кнопки
